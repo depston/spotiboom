@@ -1,0 +1,25 @@
+{
+  "name": "spotify-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot для трансляции музыки из Spotify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "spotify", "music"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "spotify-web-api-node": "^5.0.2",
+    "@discordjs/voice": "^0.16.1",
+    "play-dl": "^1.9.7",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
